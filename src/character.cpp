@@ -1,6 +1,15 @@
 #include "character.hpp"
 
 /*!
+ * @brief コンストラクタ (初期ステートはMINI)
+ */
+Character::Character(std::string name) :
+    stateMachine_(STATES::MINI),
+    name_(name)
+{}
+
+
+/*!
  * @brief キャラのname, stateを標準出力に書き出す。
  */
 void Character::PrintStatuses() {

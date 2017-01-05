@@ -1,4 +1,5 @@
 #include "main.hpp"
+#include "character.hpp"
 
 /*!
  * メイン

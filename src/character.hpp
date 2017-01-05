@@ -9,8 +9,8 @@
  */
 class Character {
  public:
-  /*! コンストラクタ (初期ステートはMINI) */
-  Character(std::string name) : stateMachine_(STATES::MINI), name_(name) {}
+  /*! コンストラクタ */
+  Character(std::string name);
 
   /*! キャラの状態を標準出力に書き出す */
   void PrintStatuses();

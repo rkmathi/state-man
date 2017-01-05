@@ -26,6 +26,7 @@ StateNaive StateNaive::GetDamage() {
     case STATES::FIRE:
       return StateNaive(STATES::MINI);
   }
+  assert(false);
 }
 
 /*!
@@ -44,6 +45,7 @@ StateNaive StateNaive::GetMushroom() {
     case STATES::FIRE:
       return StateNaive(STATES::FIRE);
   }
+  assert(false);
 }
 
 /*!
@@ -62,6 +64,7 @@ StateNaive StateNaive::GetFlower() {
     case STATES::FIRE:
       return StateNaive(STATES::FIRE);
   }
+  assert(false);
 }
 
 /*!
@@ -80,4 +83,5 @@ StateNaive StateNaive::Fall() {
     case STATES::FIRE:
       return StateNaive(STATES::DEAD);
   }
+  assert(false);
 }
